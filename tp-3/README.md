@@ -26,3 +26,7 @@ a.substring(1, 3).equals("bc") retorna true.
 2. La diferencia entre un int y un Integer es que el int es un tipo de dato primitivo y el Integer no, el Integer es una instancia (objeto) de la clase Wrapper Integer. 
 3. Una variable int sin inicializar en el código fuente (que no sea variable local, si no falla en tiempo de compilación) es inicializada automáticamente por el compilador en 0. Una variable Integer, en cambio, es inicializada automáticamente en null.
 4. En este caso, si se definen un int y un Integer como variables de método, no se pueden utilizar sin incializar, salta error en tiempo de compilación.
+
+## 7
+1. El paquete model está organizado como una carpeta dentro del paquete ar.unq.edu.poo2.tp3 (ar/unq/edu/poo2/tp3). Lo mismo sucede con los "subpaquetes" de model, model.gui y model.stack. Son subcarpetas de model.
+2. Las clases se crean en el sistema de archivos dentro de la carpeta del paquete al cual pertenecen, lo mismo sucede con la estructura de los archivos .class.

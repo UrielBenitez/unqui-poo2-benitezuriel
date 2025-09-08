@@ -28,22 +28,22 @@ class CounterTestCase {
 	}
 
 	@Test
-	void testCantidadDePares() {
+	void testearCantidadDePares() {
 		assertEquals(1, counter.cantidadDePares());
 	}
 
 	@Test
-	void testCantidadDeImpares() {
+	void testearCantidadDeImpares() {
 		assertEquals(9, counter.cantidadDeImpares());
 	}
 
 	@Test
-	void testCantidadDeMúltiplos() {
+	void testearCantidadDeMúltiplos() {
 		assertEquals(2, counter.cantidadDeMúltiplosDe(3));
 	}
 	
 	@Test
-	void testNúmeroConMásPares() {
+	void testearNúmeroConMásPares() {
 		// Set up
 		ArrayList<Integer> lista = new ArrayList<Integer>();
 		lista.add(34042);

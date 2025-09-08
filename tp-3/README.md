@@ -30,3 +30,6 @@ a.substring(1, 3).equals("bc") retorna true.
 ## 7
 1. El paquete model está organizado como una carpeta dentro del paquete ar.unq.edu.poo2.tp3 (ar/unq/edu/poo2/tp3). Lo mismo sucede con los "subpaquetes" de model, model.gui y model.stack. Son subcarpetas de model.
 2. Las clases se crean en el sistema de archivos dentro de la carpeta del paquete al cual pertenecen, lo mismo sucede con la estructura de los archivos .class.
+
+## 10
+1. Este mecanisimo de abstracción que me permite ocultar los detalles de la implementación interna de un objeto, a través de un protocolo público se conoce como encapsulamiento.

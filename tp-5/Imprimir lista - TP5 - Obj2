@@ -1,0 +1,10 @@
+unaLista  list new.
+unaPersona  Persona llamada: 'Uriel' nacida: (Date newDay: 25 month: 3  year: 2004 ).	 a Persona .
+otraPersona  Persona llamada: 'Agus' nacida: (Date newDay: 13 month: 11  year: 1996 ) . a Persona .
+unaMascota  Mascota llamada: 'Max' deLaRaza: 'Coker'. a Mascota .
+otraMascota  Mascota llamada: 'Nina' deLaRaza: 'Gato callejero'. a Mascota .
+unaLista add: unaPersona. a Persona .
+unaLista add: otraPersona. a Persona .
+unaLista add: unaMascota. a Mascota .
+unaLista add: otraMascota. a Mascota .
+unaLista do: [:elem | elem nombre] a list ( a Persona a Persona a Mascota a Mascota ) .
